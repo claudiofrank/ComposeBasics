@@ -103,11 +103,17 @@ fun TaskManager(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun ComposeQuadrant(modifier: Modifier = Modifier) {
+
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     ComposeBasicsTheme {
         //ComposeArticle()
-        TaskManager()
+        //TaskManager()
+        ComposeQuadrant()
     }
 }
